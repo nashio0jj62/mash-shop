@@ -1,0 +1,175 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and text styles to the body */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+header, footer {
+    background-image: url('backk.jpg'); /* Путь к изображению для фона */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: black; /* Цвет текста на фоне */
+    padding: 20px; /* Поля для header и footer */
+}
+
+footer {
+    background-image: url('backk.jpg'); /* Путь к изображению для фона футера */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+img {
+    width: 50%; /* Растянуть изображение по ширине ячейки */
+    height: auto; /* Сохранить пропорции по высоте */
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #D5351F;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    text-align: center;
+    display: inline;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Hover styles for each link */
+nav a:hover {
+    color: #FF5733; /* Change the link color on hover */
+}
+
+/* Specific hover styles for Home link */
+nav li:nth-child(1) a:hover {
+    color: #FF0000; /* Change the color for the Home link on hover */
+}
+
+/* Specific hover styles for About link */
+nav li:nth-child(2) a:hover {
+    color: #00FF00; /* Change the color for the About link on hover */
+}
+
+/* Specific hover styles for Services link */
+nav li:nth-child(3) a:hover {
+    color: #0000FF; /* Change the color for the Services link on hover */
+}
+
+/* Specific hover styles for Contact link */
+nav li:nth-child(4) a:hover {
+    color: #DEAF1B; /* Change the color for the Contact link on hover */
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+article h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style links */
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #FF5733; /* Change the link color on hover */
+}
+section:nth-of-type(1) {
+    background-color: #EA94E1; /* Change this to your desired background color */
+}
+
+/* Style for the second section */
+section:nth-of-type(2) {
+    background-color: grey; /* Change this to your desired background color */
+}
+
+/* Style for the third section */
+section:nth-of-type(3) {
+    background-color: #D6EE90; /* Change this to your desired background color */
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover; /* Сохранить пропорции и обрезать изображение при необходимости */
+}
