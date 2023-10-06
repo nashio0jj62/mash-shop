@@ -6,14 +6,15 @@ body, h1, h2, h3, p, ul, li {
 
 /* Apply a background color and text styles to the body */
 body {
-    background-color: #f0f0f0;
+    background-color: #0e4d6c;
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
 header, footer {
-    background-image: url('backk.jpg'); /* Путь к изображению для фона */
+    /*background-image: url('backk.jpg'); /* Путь к изображению для фона */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-color: #0e4d6c;
     color: black; /* Цвет текста на фоне */
     padding: 20px; /* Поля для header и footer */
 }
@@ -32,7 +33,20 @@ th, td {
     padding: 10px;
     text-align: center;
 }
-
+.tabs {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Плавное изменение цвета при наведении */
+    color: #FF0000; /* Красный цвет текста для всех ссылок .tabs */
+}
+/* Стиль для синей ссылки с id "news-link" */
+#news-link {
+    color: #0000FF; /* Синий цвет текста для ссылки с id "news-link" */
+}
+/* Hover styles для всех ссылок с классом .tabs */
+.tabs:hover {
+    color: #00FF00; /* Изменение цвета ссылки на hover */
+}
 th {
     background-color: #f2f2f2;
 }
@@ -44,7 +58,7 @@ img {
 
 /* Style the header */
 header {
-    background-color: #333;
+    background-color: #0e4d6c;
     color: #D5351F;
     text-align: center;
     padding: 20px 0;
@@ -71,30 +85,6 @@ nav a {
     transition: color 0.3s ease; /* Smooth color transition on hover */
 }
 
-/* Hover styles for each link */
-nav a:hover {
-    color: #FF5733; /* Change the link color on hover */
-}
-
-/* Specific hover styles for Home link */
-nav li:nth-child(1) a:hover {
-    color: #FF0000; /* Change the color for the Home link on hover */
-}
-
-/* Specific hover styles for About link */
-nav li:nth-child(2) a:hover {
-    color: #00FF00; /* Change the color for the About link on hover */
-}
-
-/* Specific hover styles for Services link */
-nav li:nth-child(3) a:hover {
-    color: #0000FF; /* Change the color for the Services link on hover */
-}
-
-/* Specific hover styles for Contact link */
-nav li:nth-child(4) a:hover {
-    color: #DEAF1B; /* Change the color for the Contact link on hover */
-}
 
 nav a {
     text-decoration: none;
@@ -141,7 +131,7 @@ a:hover {
     color: #FF5733; /* Change the link color on hover */
 }
 section:nth-of-type(1) {
-    background-color: #EA94E1; /* Change this to your desired background color */
+    background-color: #e9ddc7; /* Change this to your desired background color */
 }
 
 /* Style for the second section */
@@ -151,7 +141,7 @@ section:nth-of-type(2) {
 
 /* Style for the third section */
 section:nth-of-type(3) {
-    background-color: #D6EE90; /* Change this to your desired background color */
+    background-color: #white; /* Change this to your desired background color */
 }
 table {
     width: 50%;
